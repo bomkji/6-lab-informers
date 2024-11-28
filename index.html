@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Widgets</title>
+	
+<style>
+body {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+}	
+h1 {
+	text-align: center;
+	font-weight: normal;
+}	
+.box {
+	display: flex;
+	justify-content:space-around;
+}
+.box .fb-page {
+	box-shadow: 0 0 20px rgba(0,0,0,0.3);
+	border: 2px solid #fff;
+}
+</style>	
+	
+</head>
+
+
+
+
+	<h1>Informers</h1>
+	
+	<div class="box">
+		
+		<!--Sinoptik-->
+		<div id="SinoptikInformer" style="width:240px;" class="SinoptikInformer type1c1"><div class="siHeader"><div class="siLh"><div class="siMh"><a onmousedown="siClickCount();" class="siLogo" href="https://ua.sinoptik.ua/" target="_blank" rel="nofollow" title="Погода"> </a>Погода <span id="siHeader"></span></div></div></div><div class="siBody"><a onmousedown="siClickCount();" href="https://ua.sinoptik.ua/погода-львів" title="Погода у Львові" target="_blank"><div class="siCity"><div class="siCityName"><span>Львів</span></div><div id="siCont0" class="siBodyContent"><div class="siLeft"><div class="siTerm"></div><div class="siT" id="siT0"></div><div id="weatherIco0"></div></div><div class="siInf"><p>вологість: <span id="vl0"></span></p><p>тиск: <span id="dav0"></span></p><p>вітер: <span id="wind0"></span></p></div></div></div></a><a onmousedown="siClickCount();" href="https://ua.sinoptik.ua/погода-новояворівськ" title="Погода у Новояворівську" target="_blank"><div class="siCity"><div class="siCityName"><span>Новояворівськ</span></div><div id="siCont1" class="siBodyContent"><div class="siLeft"><div class="siTerm"></div><div class="siT" id="siT1"></div><div id="weatherIco1"></div></div><div class="siInf"><p>вологість: <span id="vl1"></span></p><p>тиск: <span id="dav1"></span></p><p>вітер: <span id="wind1"></span></p></div></div></div></a><div class="siLinks">Погода на 10 днів від <a href="https://ua.sinoptik.ua/10-днів" title="Погода на 10 днів" target="_blank" onmousedown="siClickCount();"> sinoptik.ua</a></div></div><div class="siFooter"><div class="siLf"><div class="siMf"></div></div></div></div><script type="text/javascript" charset="UTF-8" src="//sinoptik.ua/informers_js.php?title=4&amp;wind=3&amp;cities=303014487,303018659&amp;lang=ua"></script>
+		<!--./Sinoptik-->
+	
+		
+		<!-- Minfin.com.ua region informer 275x120 yellow-->
+		<div id="minfin-informer-m1Fn-region">Завантажуємо <a href="https://minfin.com.ua/ua/currency/" target="_blank">курси валют</a> від minfin.com.ua</div><script>var iframe = '<ifra'+'me width="275" height="120" fram'+'eborder="0" src="https://informer.minfin.com.ua/ua/gen/region/32/?color=yellow" vspace="0" scrolling="no" hspace="0" allowtransparency="true"style="width:275px;height:120px;ove'+'rflow:hidden;"></iframe>';var cl = 'minfin-informer-m1Fn-region';document.getElementById(cl).innerHTML = iframe; </script><noscript><img src="https://informer.minfin.com.ua/gen/img.png" width="1" height="1" alt="minfin.com.ua: курси валют" title="Курс валют" border="0" /></noscript>
+		<!-- Minfin.com.ua region informer 275x120 yellow-->	
+		
+		
+		<!--Time.js-->
+		<div style="width: 300px; background: #FF8284; border: 1px solid #555; border-radius: 6px; padding: 10px;">
+			<a href="https://time.is/Lviv" id="time_is_link" rel="nofollow" style="font-size:26px">Львов:</a>
+			<span id="Lviv_z713" style="font-size:26px"></span>
+			<script src="//widget.time.is/ru.js"></script>
+			<script>
+			time_is_widget.init({Lviv_z713:{template:"TIME<br>DATE<br>SUN", date_format:"dayname, dnum monthname year г, week", sun_format:"Восход: srhour:srminute Закат: sshour:ssminute<br>Долгота дня: dlhoursч dlminutesм", coords:"49.8382600,24.0232400"}});
+			</script>
+		</div>
+		<!--./Time.js-->
+		
+		<!--Petrol-->
+		<div>
+			<a id="vseazs_informer" class="vseazs-informer" href="https://vseazs.com"></a>
+			<script type="text/javascript" charset="UTF-8" src="https://vseazs.com/inf.php?reg=9&fuels=11110111"></script>
+		</div>
+		<!--./Petrol-->
+		
+		<!--Joy-->	
+		
+	
+	<div class="box">
+		<table align="center" border="1" cellpadding="0" cellspacing="10" bgcolor="#FBFBFB" width="50%" style="border-collapse:collapse;border-color:#D7D7D7;">
+			<tr>
+				<td>
+					<a href="http://www.profinance.ru" id="forexpf_economic" style="font-size: 13px; margin-bottom: 5px; font-weight:bold">Новости экономики</a><br>
+					<script src="//informers.forexpf.ru/export/economic.js"></script>
+				</td>
+			</tr>
+		</table>		
+	
+	</div>
+	<script type="text/javascript" src="https://allanecdots.ru/vidgets/allanecdots.js"></script>
+
+	
+	
+</body>
+</html>
